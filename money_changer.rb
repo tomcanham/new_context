@@ -15,7 +15,7 @@ module MoneyChanger
       {value_in_cents: 10, friendly_name: "dime"},
       {value_in_cents: 5, friendly_name: "nickel"},
       {value_in_cents: 1, friendly_name: "penny", plural: "pennies"}
-    ]
+    ].freeze
 
     def initialize(initial_value_in_dollars)
       @initial_value_in_dollars = initial_value_in_dollars
